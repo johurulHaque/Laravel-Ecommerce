@@ -1,0 +1,99 @@
+.gutter {
+    padding-left: 0px;
+    padding-right: 0px;
+}
+.button {
+    border-radius: 27px;
+    background-color: #3cb371;
+    border: none;
+    color: #FFFFFF;
+    text-align: center;
+    font-size: 14px;
+    padding: 16px;
+    width: 180px;
+    transition: all 0.5s;
+    cursor: pointer;
+    margin: 5px;
+}
+
+.button span {
+    cursor: pointer;
+    display: inline-block;
+    position: relative;
+    transition: 0.9s;
+}
+
+.button span:after {
+    content: '\00bb';
+    position: absolute;
+    opacity: 0;
+    top: 0;
+    right: -20px;
+    transition: 0.5s;
+}
+
+.button:hover span {
+    padding-right: 25px;
+}
+
+.button:hover span:after {
+    opacity: 1;
+    right: 0;
+}
+/* nav bar */
+/* nav bar */
+/* nav bar */
+
+
+.carousel-indicators .active {
+    background-color: #337ab7;
+}
+
+.carousel-indicators {
+    /*    bottom:100px;*/
+    left: inherit;
+    /*    margin: 0;*/
+    right: 50px;
+    top: 80%;
+    width: 10px;
+    height: 100px;
+}
+
+.carousel-indicators li {
+    border: 0px solid #337ab7;
+    display: inline;
+    padding: 8px;
+    border-radius: 50%;
+    color: snow;
+    background-color: #999;
+    margin-top: 4px;
+}
+
+
+.carousel-indicators li:hover {
+    background-color: #337ab7;
+}
+
+/*carousel_ indicator end*/
+/*carousel_ indicator end*/
+
+
+.carousel-control.left,
+.carousel-control.right {
+    /*remove shadow when hover*/
+    background-image: none !important;
+    filter: none !important;
+}
+
+
+.carousel-control.left {
+
+    left: 50px;
+    top: 250px;
+
+}
+
+.carousel-control.right {
+    right: 50px;
+    top: 250px;
+}
