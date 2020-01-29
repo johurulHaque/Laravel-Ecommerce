@@ -1,0 +1,113 @@
+@font-face {
+    font-family: myFirstFont;
+    src: url(../fonts/Sofia-Regular.otf);
+
+
+}
+
+@font-face {
+    font-family: myThirdFont;
+    src: url(../fonts/DancingScript-Regular.otf);
+}
+
+@font-face {
+    font-family: myFourFont;
+    src: url(../fonts/GreatVibes-Regular.otf);
+}
+
+
+
+@font-face {
+    font-family: mySixFont;
+    src: url(../fonts/CaviarDreams_Italic.ttf);
+}
+
+
+.intro {
+    width: 100%;
+}
+
+
+.intro_first {
+    float: left;
+    width: 33.33%;
+    height: 610px;
+    background-color: whitesmoke;
+}
+
+.intro_first > img {
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    display: block;
+    /* width: 50%; */
+    /* margin-top: 36px; */
+    margin: auto;
+    margin-top: 91px;
+}
+
+.intro_first_para > p {
+    text-align: justify;
+    margin-left: 40px;
+    margin-right: 26px;
+}
+
+
+
+.intro_second {
+    float: left;
+    width: 33.33%;
+    height: 610px;
+    background-color: whitesmoke;
+
+}
+
+.intro_second > img {
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    display: block;
+    /* width: 50%; */
+    /* margin-top: 36px; */
+    margin: auto;
+    margin-top: 91px;
+    overflow: hidden;
+
+}
+
+.intro_second_para > p {
+    text-align: justify;
+    margin-left: 40px;
+    margin-right: 26px;
+}
+
+.intro_third {
+    float: left;
+    width: 33.33%;
+    height: 610px;
+    background-color: whitesmoke;
+}
+
+
+.intro_third > img {
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    display: block;
+    /* width: 50%; */
+    /* margin-top: 36px; */
+    margin: auto;
+    margin-top: 91px;
+}
+
+.intro_third_para > p {
+    text-align: justify;
+    margin-left: 40px;
+    margin-right: 26px;
+}
+
+/* division table*/
+/* division table*/
+
+
+

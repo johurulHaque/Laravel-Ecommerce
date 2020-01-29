@@ -25,7 +25,7 @@ class formValidation extends FormRequest
     public function rules()
     {
         return [
-            'name'     => ['bail','required','between:4,10','regex:/^[a-z]+[0-9]*$/'],  
+            'name'     => ['bail','required','between:4,10','regex:/^[a-zA-Z]+[0-9]*$/'],  
             //^[] outsidebraket must 1st character alfabet //bail if find error then stop //(The regex rules share an error message by default—i.e. four failing regex rules result in one error message)
             //unique which table related
             'email'    => ['bail','required','email','unique:users','regex:/^([a-zA-Z0-9_\.\-]+)@([a-zA-Z0-9\-]+)\.([a-zA-Z]{2,5})(\.[a-z]{2,5})?$/'],  
@@ -43,13 +43,10 @@ class formValidation extends FormRequest
             'name.required'   => ':attribute field can not be blanked',
             'name.string'   => ':attribute field can not be blanked',
             'name.between'    => ':attribute should be between 4 to 10 character',
-            // 'name.regex' => ':attribute should be between 4 to 10 character',
-            // 'name.regex1' => ':attribute should be between 10 to 10 character',
-
 
             'email.required'  => ':attribute field can not be blanked',
             'email.unique'    => ':attribute already taken', //check when input in DB
-            'email'           => ':attribute should be valid',                        // same as email.email
+            'email'           => ':attribute should be valid',// same as email.email
             // 'email.regex'     => 'You should follow the valid :attribute format ',
              
             'password.required'=> ':attribute field can not be blanked',           

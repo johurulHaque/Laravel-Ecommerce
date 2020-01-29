@@ -12,7 +12,7 @@
                 <div class="card-body bg-success">
                     <form method="POST" action="{{ route('login') }}">
                         @csrf
-
+                            @include('backend.partsials.message')
                         <div class="form-group row">
                             <label for="email" class="col-md-4 col-form-label text-md-right">{{"Email-Address"}}</label>
 

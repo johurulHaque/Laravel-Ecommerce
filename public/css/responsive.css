@@ -22,15 +22,55 @@
 
 @media only screen and (max-width: 767px)
 
-{
-    
+{	
+	/* slider left menu*/
+	.slider_left_menu{
+		width: 556px;
+		margin: auto;
+	}
+	/* slider left menu button */
+    .slider_left_button {
+    font-size: 13px;
+    font-weight: 700;
+    color: #FFFFFF;
+    text-align: center;
+    width: 172px;
+    background-color: #3cb371;
+    border: none;
+    border-radius: 27px;
+    padding: 10px;
+    margin: 4px;
+    transition: all 0.5s;
+    cursor: pointer;
+}
 
 
 }
 
 /* wide mobile layout: 480px */
 
-@media only screen and (min-width: 480px) and (max-width: 767px) {}
+@media only screen  and (max-width: 575px) {
+	/* slider left menu */
+	.slider_left_menu{
+		width: 90%;
+		margin: auto;
+	}
+	/* slider left menu button */
+	.slider_left_button {
+    font-size: 13px;
+    font-weight: 700;
+    color: #FFFFFF;
+    text-align: center;
+    width:95%;
+    background-color: #3cb371;
+    border: none;
+    border-radius: 27px;
+    padding: 10px;
+    margin: 4px;
+    transition: all 0.5s;
+    cursor: pointer;
+}
+}
 
 
 

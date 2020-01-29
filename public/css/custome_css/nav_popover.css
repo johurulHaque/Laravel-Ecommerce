@@ -1,0 +1,11 @@
+/* 
+//Required for popovers wider than 276px (Bootstrap's max-width for popovers {so max-width:none; helpful for button}) 
+//popover style
+//container:body; take the current size all time when resizing
+*/
+.popover{
+    width:1283px;
+    height:200px; 
+	max-width:1290px !important;
+	margin-left: -8px; 
+}
